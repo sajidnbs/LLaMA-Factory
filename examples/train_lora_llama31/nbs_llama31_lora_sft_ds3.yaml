@@ -17,7 +17,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: opt/ml/model
+output_dir: /opt/ml/model
 logging_steps: 10
 save_steps: 500
 plot_loss: true
