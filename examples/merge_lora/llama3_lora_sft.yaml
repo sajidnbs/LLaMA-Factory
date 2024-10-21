@@ -1,7 +1,7 @@
 ### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
 
 ### model
-model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+model_name_or_path: meta-llama/Llama-3.1-8B-Instruct
 # s3 path for model
 adapter_name_or_path: "s3://sagemaker-us-east-1-054037122933/customId12024-10-21-13-44-09/output_custom/pytorch-training-2024-10-21-13-44-12-649/output/" 
 # adapter_name_or_path: saves/llama3-8b/lora/sft 
