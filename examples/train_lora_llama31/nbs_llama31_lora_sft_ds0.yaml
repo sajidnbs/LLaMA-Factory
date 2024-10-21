@@ -1,6 +1,6 @@
-model_name_or_path: /opt/ml/input/data/model_uri
+# model_name_or_path: /opt/ml/input/data/model_uri
 
-# adapter_name_or_path: /opt/ml/input/data/model_uri
+adapter_name_or_path: /opt/ml/input/data/model_uri
 
 ### method
 stage: sft
