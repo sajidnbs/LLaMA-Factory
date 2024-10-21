@@ -2,12 +2,16 @@
 
 ### model
 model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
-adapter_name_or_path: saves/llama3-8b/lora/sft
+# s3 path for model
+adapter_name_or_path: "s3://sagemaker-us-east-1-054037122933/customId12024-10-21-13-44-09/output_custom/pytorch-training-2024-10-21-13-44-12-649/output/" 
+# adapter_name_or_path: saves/llama3-8b/lora/sft 
+
 template: llama3
 finetuning_type: lora
 
 ### export
-export_dir: models/llama3_lora_sft
+# opt/ml/model
+export_dir: /opt/ml/model
 export_size: 2
 export_device: cpu
 export_legacy_format: false
