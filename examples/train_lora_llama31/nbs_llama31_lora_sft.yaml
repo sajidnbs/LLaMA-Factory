@@ -23,8 +23,8 @@ plot_loss: true
 overwrite_output_dir: true
 
 ### checkpointing
-checkpoint_dir: /opt/ml/checkpoints  # This is where checkpoints will be saved during training
-save_total_limit: 3  # Optional: this limits the number of checkpoints to keep to save disk space
+# checkpoint_dir: /opt/ml/checkpoints  # This is where checkpoints will be saved during training
+# save_total_limit: 3  # Optional: this limits the number of checkpoints to keep to save disk space
 
 
 ### train
